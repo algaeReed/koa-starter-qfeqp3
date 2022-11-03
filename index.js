@@ -9,7 +9,7 @@ const app = new Koa();
 app.use(logger());
 
 const helloWorld = (ctx) => {
-  ctx.body = 'Hello World1!!!';
+  ctx.body = 'Hello World!!!';
 };
 
 router.get('/', helloWorld);
